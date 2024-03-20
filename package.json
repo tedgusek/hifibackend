@@ -1,0 +1,22 @@
+{
+  "name": "hifibackend",
+  "version": "1.0.0",
+  "description": "Backend for HiFi Help Ticket App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedgusek/hifibackend.git"
+  },
+  "author": "Ted Gusek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tedgusek/hifibackend/issues"
+  },
+  "homepage": "https://github.com/tedgusek/hifibackend#readme",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
