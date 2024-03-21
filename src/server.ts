@@ -15,7 +15,7 @@ interface SignInData {
     userType: String;
 }
 
-app.post("/api/signin", signinMiddleware, (req: Request, res: Response) => {
+app.post("/signin", signinMiddleware, (req: Request, res: Response) => {
     const { dashboardUrl, name, email } = res.locals.userData;
     res.status(200).json([dashboardUrl, name, email ]);
 });
